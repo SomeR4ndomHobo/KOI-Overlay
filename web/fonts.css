@@ -1,0 +1,21 @@
+/*
+Lifted from https://gwfh.mranftl.com/fonts
+*/
+
+/* jura-300 - cyrillic_cyrillic-ext_greek_greek-ext_kayah-li_latin_latin-ext_vietnamese */
+@font-face {
+  font-display: swap;
+  font-family: "Twemoji Mozilla";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/Twemoji.Mozilla.ttf") format("ttf");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Barabara Final";
+  font-style: normal;
+  font-weight: 175;
+  src: url("./fonts/BARABARA-final.otf");
+}
+
