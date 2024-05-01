@@ -100,7 +100,7 @@ function fixNames(){
         const p2nameElement = document.getElementById('p2name');
 
         const currentLeft = parseInt(window.getComputedStyle(p1nameElement).left);
-        const leftReplace = 320;
+        const leftReplace = 310;
         const newLeft = leftReplace - p1teamLength * -21; // Adjust the value as needed
 
         const currentRight = parseInt(window.getComputedStyle(p2nameElement).right);
@@ -110,8 +110,14 @@ function fixNames(){
         // Apply the new left shift
         p1nameElement.style.left = newLeft + 'px';
         p2nameElement.style.right = newRight + 'px';
+
+        p1team.style.y = p1nameElement.style.y;
+        p2team.style.y = p2nameElement.style.y;
     })
     .catch(error => console.error('Error fetching JSON:', error));
+
+
+
 }
 
 // async function adjustTeamOne () {

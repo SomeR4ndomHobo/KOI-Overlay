@@ -25,8 +25,10 @@ body {
 #description,
 #subtitle {
   position: absolute;
+  
   top: 0;
   bottom: 0;
+ 
   color: white;
   text-transform: uppercase;
 }
@@ -100,30 +102,31 @@ body {
 }
 
 #p1name {
-  text-align: left;
+  text-align: center;
   left: 340px;
   top: -2px;
 }
 
 #p2name {
-  text-align: right;
+  text-align: center;
   right: 340px;
   top: -2px;
 }
 
 #p1team,
 #p2team {
-  top: -2px;
   font-size: 26px;
   text-align: center;
 }
 
 #p1team {
-  left: 320px;
+  left: 310px;
+  top: -2px;
 }
 
 #p2team {
   right: 310px;
+  top: -2px;
 }
 
 #logo {
