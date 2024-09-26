@@ -1,12 +1,12 @@
 {
     "description": "Illyria's Colosseum",
-    "subtitle": "",
-    "p1name": "name here lmao",
+    "subtitle": "Top 200000",
+    "p1name": "NameHere",
     "p1country": "",
     "p1score": 0,
-    "p1team": "name here",
-    "p2name": "name here",
+    "p1team": "TeamOrg",
+    "p2name": "NameHere",
     "p2country": "",
     "p2score": 0,
-    "p2team": "team here"
+    "p2team": "TeamOrg"
 }
