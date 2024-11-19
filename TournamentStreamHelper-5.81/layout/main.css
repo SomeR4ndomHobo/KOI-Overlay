@@ -16,6 +16,11 @@
   src: url("./fonts/BARABARA-final.otf");
 }
 
+@font-face {
+  font-family: "Termina Test";
+  src: url("../include/TerminaTest-Bold.otf") format("opentype");
+}
+
 /* Class used for transcriptions, example: Kana -> Romaji (Japanese to Roman alphabet) */
 .tsh_transcript {
   font-size: 60%;

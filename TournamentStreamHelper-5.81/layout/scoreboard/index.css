@@ -1,25 +1,16 @@
 @font-face {
-  font-family: "NotoSans";
-  src: url("../include/NotoSans-Regular.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "RobotoCondensed";
-  src: url("../include/RobotoCondensed.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url("../include/Roboto-Regular.ttf") format("truetype");
-}
-
-@font-face {
   font-family: "Barabara Final";
   src: url("../include/BARABARA-final.otf") format("opentype");
 }
 
+@font-face {
+  font-family: "Termina Test";
+  src: url("../include/TerminaTest-Bold.otf") format("opentype");
+}
+
+
 body {
-  font-family: "Barabara Final";
+  font-family: "Termina Test";
   font-weight: bold;
   opacity: 0;
   overflow: hidden;
@@ -35,7 +26,7 @@ body {
 }
 
 .koi{
-  font-family: "Barabara Final";
+  font-family: "Termina Test";
   text-align: center;
   position: absolute;
   overflow: hidden;
@@ -64,6 +55,7 @@ body {
 }
 
 .container {
+  font-family: "Termina Test";
   position: absolute;
   color: var(--text-color);
   overflow: hidden;
@@ -131,12 +123,11 @@ body {
 }
 
 .koi .player.container{
-  text-transform: uppercase;
   letter-spacing: 4px;
   width: 640px;
   top: 15px;
   position:absolute;
-  font-size: medium;
+  font-size: small;
 }
 
 .sf6 .player.container {
@@ -188,10 +179,10 @@ body {
 }
 
 .koi .p1.container{
-  left: 160px;
+  left: 125px;
 }
 .koi .p2.container{
-  right: 160px;
+  right: 125px;
 }
 
 .fgc.thin.uni2 .p1.container {
@@ -804,7 +795,7 @@ body {
 
 .koi .name{
   position: absolute;
-  top: 0px;
+  top: 5px;
 }
 
 .name_twitter .twitter {
@@ -879,7 +870,6 @@ body {
 }
 
 .koi .logo {
-  background-image: url("../KoiLogo.png");
   top: 78.6%;
   width: 200px;
   height: 200px;
@@ -1219,6 +1209,7 @@ body {
 }
 
 .phase {
+  font-family: "Termina Test";
   font-size: 18px;
   letter-spacing: 3px;
   width: 100%;
@@ -1239,12 +1230,14 @@ body {
 }
 
 .koi .phase {
+  font-family: "Termina Test";
   color: #3f3f46;
   text-align: center;
   font-size: 24px;
 }
 
 .match {
+  font-family: "Termina Test";
   font-size: 24px;
   letter-spacing: 2px;
   width: 100%;
@@ -1256,6 +1249,7 @@ body {
 }
 
 .koi .match {
+  font-family: "Termina Test";
   text-align: center;
   color:#3f3f46;
 }
@@ -1709,14 +1703,14 @@ body {
 
 .p1 .score {
   color: var(--p1-score-color);
-  margin-right: -6px;
-  margin-left:  6px;
+  margin-right: -9px;
+  margin-left:  9px;
 }
 
 .koi .p1 .score{
   margin-left: 50px;
   margin-right: -50px;
-  left: -70px;
+  left: -50px;
   top: -13px;
   font-size: 40px;
 }
@@ -1724,7 +1718,7 @@ body {
 .koi .p2 .score{
   margin-left: -50px;
   margin-right: 50px;
-  right: -70px;
+  right: -50px;
   top: -13px;
   font-size: 40px;
 }
