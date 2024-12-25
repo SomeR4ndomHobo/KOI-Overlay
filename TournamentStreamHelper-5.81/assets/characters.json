@@ -112107,6 +112107,84 @@
         ],
         "characterId": null,
         "expand": []
+      },
+      {
+        "id": 2611,
+        "name": "Ghostface",
+        "isCommon": null,
+        "videogameId": 48599,
+        "externalIdMap": null,
+        "images": [
+          {
+            "id": 7602618,
+            "width": 512,
+            "height": 512,
+            "ratio": 1,
+            "type": "icon",
+            "url": "https://images.start.gg/images/character/2611/image-ee99d4b179a048c9098f3190fa5fabbc.png?ehk=7h78DIdaYBSeh8%2B%2FNNyD8tCeUchivhH6P7%2BLKMnmpbU%3D&ehkOptimized=rGRNw0x3mBUd9FXPrxRYdH4%2F9vu7bULotHaXYaQ7pTo%3D",
+            "isOriginal": true,
+            "entity": null,
+            "entityId": null,
+            "uploadedBy": null,
+            "createdAt": null,
+            "updatedAt": null
+          },
+          {
+            "id": 7602619,
+            "width": 512,
+            "height": 512,
+            "ratio": 1,
+            "type": "stockIcon",
+            "url": "https://images.start.gg/images/character/2611/image-ee99d4b179a048c9098f3190fa5fabbc.png?ehk=7h78DIdaYBSeh8%2B%2FNNyD8tCeUchivhH6P7%2BLKMnmpbU%3D&ehkOptimized=rGRNw0x3mBUd9FXPrxRYdH4%2F9vu7bULotHaXYaQ7pTo%3D",
+            "isOriginal": true,
+            "entity": null,
+            "entityId": null,
+            "uploadedBy": null,
+            "createdAt": null,
+            "updatedAt": null
+          }
+        ],
+        "characterId": null,
+        "expand": []
+      },
+      {
+        "id": 2612,
+        "name": "Clive",
+        "isCommon": null,
+        "videogameId": 49783,
+        "externalIdMap": null,
+        "images": [
+          {
+            "id": 7688525,
+            "width": 2000,
+            "height": 2000,
+            "ratio": 1,
+            "type": "icon",
+            "url": "https://images.start.gg/images/character/2612/image-af85ae216cae8f7d49ce350f59feef3d.png?ehk=1nG0ZyaYjPkbiYUMfT0OP58ILcvsZLte6021asciXdc%3D&ehkOptimized=hBH7tYGLc7LEaxCgYZ3R%2B6zRjbk8bkavqHAh6fwkkUo%3D",
+            "isOriginal": true,
+            "entity": null,
+            "entityId": null,
+            "uploadedBy": null,
+            "createdAt": null,
+            "updatedAt": null
+          },
+          {
+            "id": 7688526,
+            "width": 2000,
+            "height": 2000,
+            "ratio": 1,
+            "type": "stockIcon",
+            "url": "https://images.start.gg/images/character/2612/image-eb4ec7c250814514dbd2b4a361d89161.png?ehk=bdqoFwNhuoY4KCaBI%2BiHvf19eg%2B%2Bumz5yYq58ASdTwg%3D&ehkOptimized=BAVW88DRSDE6%2BLQ5Zm6Zd8xHpHqHN6dBX0xkHM7KSk8%3D",
+            "isOriginal": true,
+            "entity": null,
+            "entityId": null,
+            "uploadedBy": null,
+            "createdAt": null,
+            "updatedAt": null
+          }
+        ],
+        "characterId": null,
+        "expand": []
       }
     ]
   },
@@ -114478,7 +114556,9 @@
     2607,
     2608,
     2609,
-    2610
+    2610,
+    2611,
+    2612
   ],
   "resultEntity": "character",
   "actionRecords": []

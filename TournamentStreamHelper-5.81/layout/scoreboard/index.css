@@ -1230,15 +1230,17 @@ body {
 }
 
 .koi .phase {
-  font-family: "Termina Test";
-  color: #3f3f46;
+  font-family: 'Termina Test';
+  font-weight: bolder;
+  color: #000000;
   text-align: center;
-  font-size: 24px;
+  font-size: 30px;
 }
 
 .match {
   font-family: "Termina Test";
-  font-size: 24px;
+  font-size: 28px;
+  color: #000000;
   letter-spacing: 2px;
   width: 100%;
 }
@@ -1251,7 +1253,8 @@ body {
 .koi .match {
   font-family: "Termina Test";
   text-align: center;
-  color:#3f3f46;
+  font-size: 28px;
+  color: #000000;
 }
 
 .fgc .info.container.bottom {
@@ -1310,11 +1313,12 @@ body {
 }
 
 .koi .info.container.top{
+  font-family: Termina Test;
   bottom: unset;
-  top: 0px;
+  top: -5px;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
-  height: 40px;
+  height: 60px;
   width: 300px;
   left: 50%;
 }
