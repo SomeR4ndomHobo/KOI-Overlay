@@ -125,6 +125,7 @@ body {
 .koi .player.container{
   letter-spacing: 4px;
   width: 640px;
+  
   top: 15px;
   position:absolute;
   font-size: small;
@@ -183,6 +184,13 @@ body {
 }
 .koi .p2.container{
   right: 125px;
+}
+
+.koi .p1.container .name{
+  left: 32px;
+}
+.koi .p2.container .name{
+  right: 32px;
 }
 
 .fgc.thin.uni2 .p1.container {
@@ -796,6 +804,7 @@ body {
 .koi .name{
   position: absolute;
   top: 5px;
+  font-size: 25px;
 }
 
 .name_twitter .twitter {
@@ -1043,14 +1052,6 @@ body {
   padding: 8px 16px;
 }
 
-.koi .info.container.bottom{
-  text-align: center;
-  top: 14px;
-  left: 42.5%;
-  align-items: center;
-  position: absolute;
-}
-
 .ssbu .container.top {
   bottom: 0;
   border-bottom-right-radius: 0;
@@ -1084,6 +1085,12 @@ body {
   height: unset;
   font-size: 24px;
 }
+
+/*.koi .tournament_name {
+  font-size: 24px;
+  width: 100%;
+  height: 100%;  
+}*/
 
 .fgc .info.container.top {
   top: 8px;
@@ -1232,7 +1239,8 @@ body {
 .koi .phase {
   font-family: 'Termina Test';
   font-weight: bolder;
-  color: #000000;
+  color: #ffffff;
+  top: 100px;
   text-align: center;
   font-size: 30px;
 }
@@ -1253,8 +1261,10 @@ body {
 .koi .match {
   font-family: "Termina Test";
   text-align: center;
+  top: 50px;
   font-size: 28px;
-  color: #000000;
+  color: #ffffff;
+
 }
 
 .fgc .info.container.bottom {
@@ -1315,12 +1325,23 @@ body {
 .koi .info.container.top{
   font-family: Termina Test;
   bottom: unset;
-  top: -5px;
+  top: 15px;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
   height: 60px;
-  width: 300px;
+  width: 350px;
   left: 50%;
+}
+
+.koi .info.container.bottom{
+  bottom: unset;
+  text-align: center;
+  top: 35px;
+  text-size-adjust: 40%;
+  left: 42.5%;
+
+  align-items: center;
+  position: absolute;
 }
 
 .arms .info.container.right {
@@ -1712,17 +1733,9 @@ body {
 }
 
 .koi .p1 .score{
-  margin-left: 50px;
+  margin-left: 60px;
   margin-right: -50px;
   left: -50px;
-  top: -13px;
-  font-size: 40px;
-}
-
-.koi .p2 .score{
-  margin-left: -50px;
-  margin-right: 50px;
-  right: -50px;
   top: -13px;
   font-size: 40px;
 }
@@ -1754,6 +1767,14 @@ body {
   color: var(--p2-score-color);
   margin-left: -6px;
   margin-right: 6px;
+}
+
+.koi .p2 .score{
+  margin-left: -50px;
+  margin-right: 60px;
+  right: -50px;
+  top: -13px;
+  font-size: 40px;
 }
 
 .thin .p2 .score {
