@@ -234,6 +234,7 @@ body {
 
 .icon {
   flex-shrink: 0;
+  visibility: hidden;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -257,7 +258,7 @@ body {
   height: 100%;
 }
 
-.flags {
+/*.flags {
   display: flex;
   flex-direction: row;
   gap: 2px;
@@ -276,7 +277,7 @@ body {
   width: var(--flag-height);
   height: calc(var(--flag-height) * 0.7px);
   border-radius: 3px;
-}
+}*/
 
 .sponsor_icon > div > div {
   display: inline-block;
