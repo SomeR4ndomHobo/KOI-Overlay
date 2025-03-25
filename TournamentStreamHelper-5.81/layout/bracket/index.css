@@ -1,15 +1,21 @@
 :root {
   --player-height: 24;
   --name-size: 14;
-  --score-size: 14;
+  --score-size: 7;
   --set-gap: 2;
   --flag-height: 8;
   --title-size: 100px;
 }
 
+@font-face {
+  font-family: "Termina Test";
+  src: url("../include/TerminaTest-Bold.otf") format("opentype");
+}
+
 body {
-  font-family: var(--font);
+  font-family: "Termina Test";
   font-weight: bold;
+  font-size: medium;
   opacity: 0;
   overflow: hidden;
   margin: 0;
@@ -202,7 +208,7 @@ body {
 }
 
 .name_twitter .name {
-  font-size: var(--name-size);
+  font-size: 15px;
   max-width: 100%;
 }
 
@@ -293,11 +299,11 @@ body {
   display: flex;
   overflow: hidden;
   height: 100%;
-  width: 60%;
+  width: 100%;
   flex-shrink: 0;
   margin-top: 0;
   position: absolute;
-  right: 0;
+  right: -5px;
   z-index: -999;
   opacity: 0.5;
   -webkit-mask-image: -webkit-linear-gradient(
@@ -330,7 +336,7 @@ body {
 .score {
   width: 40px;
   height: 100px;
-  font-size: var(--score-size);
+  font-size: 16px;
   flex-grow: 0;
   flex-shrink: 0;
   overflow: hidden;
@@ -348,7 +354,7 @@ body {
 }
 
 .sponsor {
-  color: var(--p1-sponsor-color);
+  color: goldenrod;
 }
 
 .slot_p_0 {
