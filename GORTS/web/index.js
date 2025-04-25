@@ -100,11 +100,11 @@ function fixNames(){
         const p2nameElement = document.getElementById('p2name');
 
         const currentLeft = parseInt(window.getComputedStyle(p1nameElement).left);
-        const leftReplace = 280;
+        const leftReplace = 360;
         const newLeft = leftReplace - p1teamLength * -22; // Adjust the value as needed
 
         const currentRight = parseInt(window.getComputedStyle(p2nameElement).right);
-        const rightReplace = 280;
+        const rightReplace = 360;
         const newRight = rightReplace - p2teamLength * -22; // Adjust the value as needed
         
         // Apply the new left shift

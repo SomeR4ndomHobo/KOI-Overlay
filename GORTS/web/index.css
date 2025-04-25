@@ -80,51 +80,53 @@ body {
 #p1score,
 #p2score {
   top: 0px;
-  font-size: 40px;
+  font-size: 30px;
   width: 2em;
   text-align: center;
-  color: rgba(255, 255, 255, 0.808);
+  color: rgba(0, 0, 0, 0.808);
 }
 
 #p1score {
-  left: 120px;
+  left: 230px;
 }
 
 #p2score {
-  right: 120px;
+  right: 230px;
+}
+
+
+#p1name {
+  text-align: center;
+  left: 400px;
+}
+
+#p2name {
+  text-align: center;
+  right: 400px;
 }
 
 #p1name,
 #p2name {
-  color: rgba(255, 255, 255, 0.808);
-  top: 10px;
-  font-size: 30px;
+  color: rgba(0, 0, 0, 0.808);
+  top: 5px;
+  font-size: 25px;
 }
 
-#p1name {
-  text-align: center;
-  left: 250px;
-}
-
-#p2name {
-  text-align: center;
-  right: 250px;
-}
 
 #p1team,
 #p2team {
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
-  top: 10px
+  top: 5px
 }
 
 #p1team {
-  left: 250px;
+  left: 370px;
   
 }
 
 #p2team {
-  right: 250px;
+  right: 370px;
 }
 
 #logo {
